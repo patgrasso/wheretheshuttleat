@@ -1,0 +1,39 @@
+{
+  "name": "wheretheshuttleat",
+  "version": "1.0.0",
+  "description": "An application for tracking the Stevens shuttles",
+  "main": "index.js",
+  "author": "Pat Grasso",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --hot --content-base public/",
+    "clean": "rm -rf public"
+  },
+  "dependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-react": "^6.23.0",
+    "css-loader": "^0.27.3",
+    "file-loader": "^0.10.1",
+    "immutable": "^3.8.1",
+    "json-loader": "^0.5.4",
+    "moment-timezone": "^0.5.11",
+    "react": "^15.4.2",
+    "react-color": "^2.11.4",
+    "react-datetime": "^2.8.8",
+    "react-dom": "^15.4.2",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-select": "^1.0.0-rc.3",
+    "style-loader": "^0.13.2",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^2.30.1"
+  }
+}
